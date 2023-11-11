@@ -3,9 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+spam.txt
 # C extensions
 *.so
-
+capitals_*
+mydata.db
 # Distribution / packaging
 .Python
 build/
