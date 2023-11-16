@@ -18,3 +18,10 @@ for file_name in os.listdir('.'):
     day = mo.group(4)
     year = mo.group(6)
     after_part = mo.group(8)
+
+    euro_filename = before_part+ day+ '-'+ month+'-'+year+after_part
+    abs_dir = os.path.abspath('.')
+    file_name = os.path.join(abs_dir, file_name)
+    euro_filename = os.path.join(abs_dir, euro_filename)
+
+    shutil.move(file_name, euro_filename)
