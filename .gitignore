@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+/xkcd
+
 spam.txt
 # C extensions
 *.so
