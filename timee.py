@@ -74,4 +74,15 @@ oct_21 - about_30_years
 
 while datetime.datetime.now() < datetime.datetime(2023, 12,12):
     time.sleep(1)
-    
+
+# converting datetime objects into strings
+# Use the strftime() method to display a datetime object as a string
+
+oct_21.strfrtime('%Y/%m/%d %H:%M:%S')
+
+# converting strings into datetime functions
+# use datetime.datetime.strptime() to display a date string as a datetime object
+datetime.datetime.strptime('October 21, 2019', '%B %d %Y')
+
+
+
