@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+alarm.wav
+credentials.json
 /xkcd
 
 spam.txt
